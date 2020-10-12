@@ -1,0 +1,1 @@
+"""Creates table to store data about drinks"""

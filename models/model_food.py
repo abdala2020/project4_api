@@ -1,0 +1,1 @@
+"""creates a table  which will be stored data about food collected from an API """
