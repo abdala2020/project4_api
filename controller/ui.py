@@ -29,4 +29,17 @@ def get_id():
         except ValueError:
             message('Please enter a number.')
 
+def save_or_not_save():
+    """ Ask user to enter 'save' or 'not save'
+     :returns: True if user enters 'save' or False if user enters 'not save' """
+    while True:
+        response = input('Enter \'save\' if you wish to save this data: \'not save\' if you are not interested: ')
+        if response.lower() == "save":
+            return True
+        elif response.lower() == "not save":
+            return False
+        else:
+            message('Type \'save\' or \'not save\'')
+     
+
 
